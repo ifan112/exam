@@ -1,0 +1,7 @@
+POST localhost:8080/api/order/pay
+Content-Type: application/json
+
+{
+  "orderId": 1234567890,
+  "payMethod": "Weixin"
+}
